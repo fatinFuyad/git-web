@@ -1,7 +1,7 @@
 body {
   height: 100vh;
   background: linear-gradient(to right, #000a1e, #000b00, #222);
-  color: bisque;
+  color: lightgray;
   padding: 2.4rem;
 }
 nav {
@@ -17,4 +17,11 @@ nav a {
 nav a:hover {
   transform: scale(1.2);
   color: lightcyan;
+}
+ul {
+  list-style: square;
+}
+li::marker {
+  font-size: 2rem;
+  font-weight: bolder;
 }
