@@ -25,3 +25,9 @@ li::marker {
   font-size: 2rem;
   font-weight: bolder;
 }
+footer {
+  color: darkgrey;
+  position: fixed;
+  bottom: 0;
+  font-size: 16px;
+}
