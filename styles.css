@@ -1,5 +1,13 @@
 body {
   height: 100vh;
-  background: linear-gradient(to right, #000a1e, #222, #000b00);
+  background: linear-gradient(to right, #000a1e, #000b00, #222);
   color: bisque;
+  padding: 2.4rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  margin-right: 5rem;
 }
