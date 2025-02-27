@@ -4,6 +4,10 @@ body {
   color: lightgray;
   padding: 2.4rem;
 }
+header {
+  background: linear-gradient(to left, darkblue, darkslateblue);
+  padding: 1rem 2rem;
+}
 nav {
   display: flex;
   align-items: center;
@@ -21,10 +25,12 @@ nav a:hover {
 main div:first-child {
   text-align: center;
 }
-ul {
+main ul {
+  background-color: #222;
+  padding: 0.5rem 4rem;
   list-style: square;
 }
-li::marker {
+main ul li::marker {
   font-size: 2rem;
   font-weight: bolder;
 }
