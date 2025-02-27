@@ -22,10 +22,14 @@ nav a:hover {
   transform: scale(1.2);
   color: lightcyan;
 }
-ul {
+main ul {
+  background-color: #222;
+  padding: 0.5rem 4rem;
+}
+main ul {
   list-style: square;
 }
-li::marker {
+main ul li::marker {
   font-size: 2rem;
   font-weight: bolder;
 }
