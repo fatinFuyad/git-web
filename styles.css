@@ -18,6 +18,9 @@ nav a:hover {
   transform: scale(1.2);
   color: lightcyan;
 }
+main div:first-child {
+  text-align: center;
+}
 ul {
   list-style: square;
 }
